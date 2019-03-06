@@ -132,7 +132,6 @@ cc_library {
     defaults: [
         "vixl-release",
         "vixl-arm64",
-        "dex2oat-pgo-defaults",
     ],
     target: {
         android: {
@@ -153,7 +152,6 @@ cc_library {
     defaults: [
         "vixl-release",
         "vixl-arm",
-        "dex2oat-pgo-defaults",
     ],
     vendor_available: true,
     vndk: {
